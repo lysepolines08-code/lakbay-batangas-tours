@@ -22,15 +22,16 @@
      <li><a href="#contact">Contact</a></li> 
 
          </ul>
-</nav>
+ </nav>
 </header>
 
-<section id="home">
+<body>
+ <section id="home">
     <h2>WELCOME TO LAKBAY BATANGAS TOURS</h2>
     <p>Discover the beauty of Batangas with our curated tour packages!</p>
-</section>
+ </section>
 
-<section id="about">
+ <section id="about">
     <h2>About Us</h2>
      <figure>
     <img src="assets/images/taal-lake.jpg" 
@@ -48,18 +49,18 @@
          Photos by:Talynhaga <a href="https://commons.wikimedia.org/wiki/File:Taal_Lake.jpg">Image Source </a>
          <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
     </p>
-</section>
-<br>
+ </section>
+ <br>
 
-<article id="packages">
+ <article id="packages">
     <h2>Tour Packages</h2>
      <article id="packages1">
-        <h2>Package 1<br>MT. BATALAO ADVENTURE</h2>
+        <h3>Package 1<br>MT. BATALAO ADVENTURE</h3>
         <li><a href="#contact">Contact</a></li> 
         <p>Mt. Batalao is known for its grassy ridgelines and wide views of the Batangas countryside.
         <br>
         Expect exposed sections and uneven terrain. Check current trail conditions and choose a route suited to your experience.</p>
-    <article>
+ <article>
     <article id="packages1">
         <h3>Package 2 <br> ANILAO BEACH TOUR</h3>
         <li><a href="#contact">Contact</a></li>
@@ -72,9 +73,9 @@
         <br>
         Perfect for a laid-back day of swimming and beachside relaxation.</p> 
         </article>
-</article>
+ </article>
 
-<table>
+ <table>
     <thead>
     <tr>
         <th scope="col">Package</th>
@@ -100,11 +101,11 @@
         <td><a href="#contact">Ask for details</a></td>
     </tr>
     </tbody>
-</table>
+ </table>
 
 
 
-<section id="why">
+ <section id="why">
     <h2>WHY CHOOSE US?</h2>
     <P>Why Choose Lakbay Batangas Tours? 🌊⛰️
     <br>
@@ -122,9 +123,9 @@
     Ready to turn your weekend plans into an unforgettable adventure?
     <br>
     📩 Message us today to book your next escape!</P>
-</section>
+ </section>
 
-<section id="contact">
+ <section id="contact">
     <h2>HOW TO CONTACT US?</h2>
     <P>📲 BOOK YOUR ESCAPE TODAY!
      <br>
@@ -133,20 +134,58 @@
     📞 Call/Viber: 09123456789
     <br>
     📧 Email:<a href="mailto:hellobatangas@gmail.com">hellobatangas@gmail.com</a>
-</section>
+ </section>
 
-<h2>First Inquiry Form Control</h2>
-<p>Practice only:this field does not send or store an inquiry.</p>
+ <h2>First Inquiry Form Control</h2>
+ <p>Practice only:this field does not send or store an inquiry.</p>
  <form action="#contact" method="get">
-    <label for="visitor-name">Your name</label>
+    <label for="visitor-name">Your name(Required)</label>
     <input id="visitor-name" 
     name="visitor_name" type="text"></input>
-<br>
-<br> 
+ <br>
+ <br> 
+ <form action="#contact" method="get"> 
+    <p>
+        <label for="visitor-email">Email Address(Required)</label>
+        <input id="visitor-email" name="visitor_email" type="email"></input>
+    </p>
+ </form>
+     <br>
+     <br>
+  <form action="#contact" method="get">
+        <label for="tour-choice">Tour(Required)</label>
+        <select id="tour-choice" name="tour_choice" required>
+     
+             <option value="">Choose Tour</option>
+             <option value="taal">Taal Heritage Tour</option>
+             <option value="laiya">Laiya Beach Tour</option>
+             <option value="nature">Batangas Nature Tour</option>
+        </select>
+ </form>
 
-<footer>
-     © 2026 Lakbay Batangas Tours. All rights reserved.
-</footer>
+     <br>
+     <br>
+
+      <label for="optional message">Message</label>
+      <textarea id="visitor-message" name="visitor_message" rows="4" cols="50" placeholder="Your message here..."></textarea>
+     <br>
+     <br>
+      <fieldset>
+         <legend> Preferred demo response</legend>
+            <input type="radio" id="email" name="response_method" value="email">
+            <label for="email">Email</label>
+            <input type="radio" id="No reply needed" name="response_method" value="No reply needed">
+            <label for="No reply needed">No reply needed</label>
+       </fieldset>
+
+
+</body>
+<br>
+<br>
+
+ <footer>
+     © 2026 Lakbay Batangas Tours. All rights reserved.  
+ </footer>
 
 </DOCTYPE>
 
