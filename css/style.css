@@ -1,0 +1,30 @@
+header{
+    background:#6baed6;
+    color: #08306b;
+    padding: 20px;
+}
+
+ nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #deebf7;
+    line-height: 1.6;
+}
+
+footer{
+    background-color: #9ecae1;
+    color: #ffffff;
+    padding: 50px 10% 20px;
+    font-family: 'Inter', sans-serif;
+}
