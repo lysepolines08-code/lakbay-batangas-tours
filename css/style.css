@@ -48,6 +48,9 @@ body{
     color: #333333;
     background-color: #deebf7;
     line-height: 1.6;
+    width: 90%
+    max-width:auto;
+    margin-inline auto; 
 }
 
 footer{
@@ -97,3 +100,40 @@ label[for="visitor-message"] {
 #visitor-message::placeholder {
     color: #999;
 }
+a:hover{
+    color: #e9120b94;
+
+}
+
+main {
+    width: 90%
+    max-width:auto;
+    margin-inline auto; 
+
+}
+figure { margin: 16px 0;}
+figure img{
+    display: block;
+    max-width: 100%;
+    height:auto;
+}
+figcaption{
+    margin-top: 8px;
+}
+form { 
+    max-width: 680px; 
+    width: 90%
+    max-width:auto;
+    margin-inline auto; 
+}
+
+input, select, textarea {
+      max-width: 100%;
+      font: inherit;
+}
+
+input:not ([type="radio"]) 
+{width: 100%;}
+textarea {width:100%}
+
+/* Media Queries for Responsive Design */
