@@ -1,8 +1,10 @@
 header{
-    background:#08334d;
+    position:sticky;
+    background-color: #08334d;
     color: #7ebad6;
     padding: 15px;
     text-align: center;
+    
 }
 
 img{
@@ -28,13 +30,12 @@ section#home{
 
  nav a {
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 32px;
     font-weight: 500;
     text-decoration: line;
     color: #fffbfb;
-    margin: 0 15px;
     transition: color 0.3s ease;
-
+    letter-spacing: 2px;
 }
 
 nav a:hover {
@@ -48,19 +49,16 @@ body{
     color: #333333;
     background-color: #deebf7;
     line-height: 1.6;
-    width: 90%
-    max-width:auto;
-    margin-inline auto; 
-}
+    width: 90%;
+    max-width: auto; 
+    margin-inline: auto;     
+}   
 
 footer{
     background-color: #08334d;
     color: #ffffff;
     padding: 20px 10% 20px;
     font-family: inter, sans-serif;
-}
-article h3{
-    background-color: palegoldenrod;
 }
 
 :focus-visible {
@@ -106,9 +104,9 @@ a:hover{
 }
 
 main {
-    width: 90%
+    width: 90%;
     max-width:auto;
-    margin-inline auto; 
+    margin-inline: auto; 
 
 }
 figure { margin: 16px 0;}
@@ -122,9 +120,9 @@ figcaption{
 }
 form { 
     max-width: 680px; 
-    width: 90%
-    max-width:auto;
-    margin-inline auto; 
+    width: 90%;
+    max-width: auto;
+    margin-inline: auto; 
 }
 
 input, select, textarea {
@@ -132,8 +130,75 @@ input, select, textarea {
       font: inherit;
 }
 
-input:not ([type="radio"]) 
-{width: 100%;}
-textarea {width:100%}
+input:not ([type="radio"])
+{width: 100%;}                                              
+textarea{width:100%}
 
-/* Media Queries for Responsive Design */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+th,
+td {
+    border: 1px solid #b5cbd8;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #08334d;
+    color: #ffffff;
+}
+
+
+table a {
+    color: #08334d;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #08334d;
+    text-align: center;
+
+}
+
+.container{
+  display: grid;
+  border: 2px dashed #8bb7ba;
+  padding: 12px;
+  flex-direction: row;
+  gap: 16px;
+  min-height: 180px;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+#packages1{
+    border: 2px solid #8bb7ba;
+}
+
+.highlight{
+    position: relative;
+    background-color: #5789c9;
+    grid-column: span 2;
+
+}
+
+#featured
+{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background-color:yellow;
+    border-radius: 4px;
+    
+}
