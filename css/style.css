@@ -2,7 +2,7 @@ header{
     position:sticky;
     background-color: #08334d;
     color: #7ebad6;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     
 }
@@ -12,6 +12,7 @@ img{
     margin: 0 auto;
     width: 380px;
     max-width: 100%;
+    border-radius: 10px;
 }
 
 section#about{
@@ -30,7 +31,7 @@ section#home{
 
  nav a {
     font-family: 'Inter', sans-serif;
-    font-size: 32px;
+    font-size: 15px;
     font-weight: 500;
     text-decoration: line;
     color: #fffbfb;
@@ -39,7 +40,7 @@ section#home{
 }
 
 nav a:hover {
-    color: #e2d51c;
+    color: #060604;
     text-decoration: underline;
 }
 
@@ -66,6 +67,7 @@ footer{
 }
 
 .my-form{
+    position: relative;
     background-color: #4d96eb;
     padding: 20px;
     border-radius: 5px;
@@ -187,6 +189,7 @@ nav{
   gap: 16px;
   border-radius: 25px;
   box-shadow: 0 4px 8px rgba(226, 6, 6, 0.793);
+
 }
 
 #packages1{
@@ -251,4 +254,13 @@ nav{
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(226, 6, 6, 0.793);
 
+}
+
+@media (min-width: 48rem) {
+  #packages1 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  contact-layout {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  }
 }
