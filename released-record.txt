@@ -1,0 +1,25 @@
+Release record
+Learner and project: yallee polines/lakbay-batangas-tours
+
+Repository URL: https://github.com/lysepolines08-code/lakbay-batangas-tours 
+
+Branch and folder: main-lakbay batangas tours
+
+Live URL copied from Pages:https://lysepolines08-code.github.io/lakbay-batangas-tours/ 
+
+Initial commit and deployment status: git commit -m "prepare tested responsive demo"
+
+Defect ID and reproduction steps: A04-Labels focus controls and required fields block invalid submission
+
+Expected and actual before correction:  
+
+Correction and fix commit: No correction
+
+Successful deployment time: 12:00 noon
+
+Live retest environment and actual result: website is responsive
+
+Pending criteria, blocker, owner and next date: Trainer input
+
+Receiving trainer and repeated test: Trainer input
+
